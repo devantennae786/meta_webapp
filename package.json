@@ -1,20 +1,10 @@
 {
   "version": "0.0.0",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/fulls1z3/ngx-meta.git"
+    "type": "git"
   },
   "keywords": [],
-  "author": {
-    "name": "Burak Tasci",
-    "email": "mail@buraktasci.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fulls1z3/ngx-meta/issues"
-  },
-  "homepage": "https://github.com/fulls1z3/ngx-meta#readme",
-  "scripts": {
+   "scripts": {
     "clean": "rimraf dist",
     "build:core": "ts-node tools/build/packager.ts core",
     "build": "npm run build:core",
